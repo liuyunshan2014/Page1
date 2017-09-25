@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局样式*/
+*{
+   margin:0px auto;
+   padding:0px;
+   color:#010101;
+   list-style:none;
+   font:20px "Microsoft YaHei";
+   border: none;
+}
+img{border:0px;}
+a
+{
+   font-size:20px;
+   color:#010101;
+   text-decoration:none;
+}
+a:hover{color:#1c5080;}
+body{background:#fff;}
+.clear{clear:both;}
+.wrap{width:100%;}
+
+/*头部样式*/
+.header{
+	height:225px;
+	width:100%;
+	background-color:#fff;
+}
+.navtop{
+	font-size:14px;
+	height:45px;
+	background-color:#333;
+}
+.navtop img{float:right;}
+.navtop .nava{
+	color:#fff;
+	float:right;
+	margin:8px 32px 0 0;
+}
+.navtop .nava a{
+	color:#fff;
+    font-size:14px;
+    padding:0 12px;
+}
+.nav{
+	height:95px;
+	width:100%;
+	min-width:1200px;
+	background:url(../images/navbg.jpg) top left repeat-x;
+}
+.nav ul{
+	float:right;
+	height:100%;
+	margin-right:38px;
+}
+.nav ul li{
+	float:left;
+	line-height:95px;
+	padding:0 11px;
+}
+.nav ul li a{
+	display:block;
+	padding:26px 13px 22px;
+	background-color:#fff;
+}
+.nav ul li a:hover{
+	color:#e8420a;
+	border-bottom:3px solid #e8420a;
+}
+.nav ul .navhov a{
+	color:#e8420a;
+	border-bottom:3px solid #e8420a;
+}
+.crumb{
+	width:1200px;
+	height:86px;
+	line-height:86px;
+	margin:0 auto;
+}
+.crumb a{font-size:18px;}
+
+/*内容样式*/
+.content{
+	width:1200px;
+	margin-top:15px;
+}
+
+/*底部样式*/
+.footer{
+	margin-top:65px;
+	color:#fff;
+	height:800px;
+	width:100%;
+	background:#000;
+}
+.footer p{
+	margin-top:40px;
+	font-size:16px;
+	text-align:center;
+	color:#fff;
+	line-height:40px;
+}
+.flayer{border-bottom:1px solid #404040;}
+.fhigh1{
+	height:273px;
+}
+.fhigh2{
+	height:368px;
+}
+.fwidth{
+	width:1200px;
+	margin:0 auto;
+}
+.fwidth ul{
+	float:left;
+	width:120px;
+}
+.fwidth ul li{line-height:30px;}
+.fwidth ul li a{
+	color:#fff;
+	font-size:14px;
+	line-height:28px;
+}
+.fwidth ul li a:hover{text-decoration:underline;}
+.fwidth .lihead{
+	margin-top:60px;
+	line-height:40px;
+	color:#fff;
+	font-size:18px;
+}
+.contact{
+	float:right;
+	width:416px;
+	height:273px;
+	background:url(../images/footcall.jpg) top left no-repeat;
+}
+.fhigh2 .fwidth ul{
+	width:100%;
+	margin-top:16px;
+}
+.fhigh2 .fwidth .fulimg .lihead{
+	margin-top:20px;
+	padding:0;
+}
+.fhigh2 .fwidth .lihead{margin:0 20px 0 0;}
+.fhigh2 .fwidth li{float:left;}
+.fhigh2 .fwidth .fliimg a{padding:0 10px;}
+.fhigh2 .fwidth .fliimg a img{margin-top:22px;}
+.fhigh2 .fwidth .ful2 li a{padding:0 8px;}
+

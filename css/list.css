@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+/*列表样式*/
+.guide{
+	width:1198px;
+	border:1px solid #d3d3d3;
+	border-bottom:0;
+}
+.guide h1{
+	font-size:24px;
+	color:#fff;
+	height:48px;
+	line-height:48px;
+	padding-left:36px;
+	background:url(../images/guidebg.jpg) top left no-repeat;
+	border-bottom:2px solid #1c5080;
+}
+.guide ul{
+	width:1198px;
+	height:62px;
+	border-bottom:1px solid #d3d3d3;
+}
+.guide ul li{
+	float:left;
+	height:62px;
+	line-height:62px;
+}
+.guide ul li a{
+	display:block;
+	padding:0 10px;
+	margin:0 10px;
+	height:59px;
+	line-height:59px;
+}
+.guide .guideli{
+	width:150px;
+	text-align:center;
+	background-color:#f5f5f5
+}
+.glihov_sim a{color:#1c5080;}
+.glihov_spl a{
+	color:#1c5080;
+    border-bottom:3px solid #1c5080;
+}
+.outside{border-bottom:1px solid #d3d3d3;}
+.outside ul{
+	width:1048px;
+	margin-left:150px;
+	height:120px;
+    border:0;
+}
+.outside ul li{
+	height:50px;
+	line-height:50px;
+}
+.outside ul li a{color:#808080;}
+.outside ul li a:hover{color:#1c5080;}
+.outside ul .glihov_sim a{color:#1c5080;}
+.guide ul .gliflr{float:right;}
+.guide ul .gliflr a{
+	width:70px;
+	background:url(../images/more1.jpg) top center no-repeat;
+}
+
+.conlist{margin-top:35px;}
+.price{
+	height:50px;
+	background-color:#f5f5f5;
+	border:1px solid #d3d3d3;
+}
+.price h1{
+	float:left;
+	width:40px;
+	line-height:50px;
+	margin-left:35px;
+}
+.price p{
+	float:right;
+	line-height:50px;
+	margin-right:25px;
+}
+.price p span{color:#e8420a;}
+
+.rlicont{
+	width:1200px;
+	margin:35px 0 0;
+	border-bottom:1px dashed #dedede;
+}
+.rlicont .read,.rlibtn{float:left;}
+.rlicont img{float:left;}
+.rlicont{
+	float:none;
+	padding-bottom:38px;
+}
+.rlicont h2,.rlicont p{
+	float:left;
+	margin-left:25px;
+	width:715px;
+}
+.rlicont h2{font-size:24px;}
+.rlicont h2 span{
+	color:#666;
+	font-size:18px;
+	line-height:50px;
+}
+.rlicont p{
+	font-size:14px;
+	color:#666;
+}
+.read{
+	margin-top:25px;
+	width:300px;
+}
+.read p{line-height:24px;}
+.rlibtn{
+	float:right;
+	width:auto;
+	margin-top:150px;
+}
+.rlibtn p{
+	width:auto;
+	font-size:20px;
+}
+.rlibtn p span{
+	color:#e8420a;
+	font-size:36px;
+}
+.rlibtn button{
+	cursor:pointer;
+	width:135px;
+	height:34px;
+	margin:5px 42px 0;
+	background:url(../images/readbtn.jpg) top center;
+}
+
+.page{
+	width:1200px;
+	padding:55px 0;
+}
+.page ul{float:right;}
+.page ul li{
+	float:left;
+	margin-left:5px;
+	height:35px;
+	line-height:35px;
+}
+.page ul li a{
+	font-size:17px;
+	display:block;
+	height:35px;
+	line-height:34px;
+	padding:0 13px;
+	border:1px solid #dedede;
+	border-radius:3px;
+}
+.page ul .pagegray a{color:#dedede;}
+.page ul li a:hover{
+	color:#fff;
+    background-color:#1c5080;
+}
+.page ul .pagehold a{
+	color:#fff;
+    background-color:#1c5080;
+}
